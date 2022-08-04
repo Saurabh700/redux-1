@@ -1,10 +1,14 @@
 import "./App.css";
-import Counter from "./Redux/Counter";
+import AllRoutes from "./Assignment2/AllRoutes";
+import Todo from "./Assignment2/Todo";
+// import Counter from "./Assignment1/Counter";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
+      {/* <Todo /> */}
+      <AllRoutes />
     </div>
   );
 }
